@@ -86,7 +86,7 @@ class Mem extends React.Component {
         </table>
         <div>
           <b>Allocate/Clear memory to force OOM</b><br/>
-          <a className="failn" onClick={e => this.alloc(e, 500*1024*1024)} href="#">Allocate 500 MiB</a><br/>
+          <a className="failn" onClick={e => this.alloc(e, 250*1024*1024)} href="#">Allocate 250 MiB</a><br/>
           <a className="failn" onClick={e => this.clear(e)} href="#">Clear</a>
         </div>
       </div>
